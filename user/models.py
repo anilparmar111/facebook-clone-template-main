@@ -8,7 +8,7 @@ class User(models.Model):
     phoneno=models.CharField(max_length=18)
     password=models.CharField(max_length=18)
     username=models.CharField(max_length=18)
-    gender=models.CharField(max_length=1)
+    gender=models.CharField(max_length=5)
     dob=models.DateField()
 
     def __str__(self):

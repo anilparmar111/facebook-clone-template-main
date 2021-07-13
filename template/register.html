@@ -19,51 +19,34 @@
         <label> email: </label>
         <input type="text" name="email" size="15" /> <br> <br>
         <label> phoneno: </label>
-        <input type="text" name="phone" size="15" /> <br> <br>
+        <input type="text" name="phoneno" size="15" /> <br> <br>
                 <label> username: </label>
-                <input type="text" name="uname" size="15" /> <br> 
+                <input type="text" name="username" size="15" /> <br> 
                 <br><label> password: </label>
-                <input type="text" name="pswd" size="15" /> <br> <br>
+                <input type="text" name="password" size="15" /> <br> <br>
         
         <br>
         <br>
         <label>
             Gender :
         </label>
-        <input type="radio" id="male" name="gender" value="HTML">
+        <input type="radio" id="male" name="gender" value="male">
           <label for="html">Male</label>
-          <input type="radio" id="css" name="gender" value="CSS">
+          <input type="radio" id="Female" name="gender" value="female">
           <label for="css">Female</label><br>
         <br>
         <br>
         <label>
             Date Of Birth :
         </label><br>
-        <input type="date" name="date">
+        <input type="date" name="dob">
 
         <input type="submit">
 
     </form>
 </body>
 
-<!-- <script>
-    const thisForm = document.getElementById('myForm');
-    thisForm.addEventListener('submit', async function (e) {
-        e.preventDefault();
-        const formData = new FormData(thisForm).entries()
-        const response = await fetch('/adddata', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(Object.fromEntries(formData))
-        });
 
-        const result = await response.json();
-        console.log(result)
-    });
-
-
-
-</script> -->
 
 
 </html>
